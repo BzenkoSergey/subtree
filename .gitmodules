@@ -1,0 +1,3 @@
+[submodule "packages/team1"]
+	path = packages/team1
+	url = https://github.com/BzenkoSergey/subtree-team1.git
