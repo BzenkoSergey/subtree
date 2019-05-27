@@ -14,8 +14,8 @@
   },
   "private": false,
   "dependencies": {
-	"@harmony102/core-styles": "1.0.56",
-	"@harmony102/foo": "0.0.56",
+	"@harmony102/styles": "1.0.56",
+	"@harmony102/common": "0.0.56",
     "@harmony102/team1": "0.0.56",
     "@harmony102/team2": "0.0.57"
   }

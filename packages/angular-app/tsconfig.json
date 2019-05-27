@@ -7,9 +7,9 @@
 			"node_modules/@types"
 		],
 		"paths": {
-			"@harmony102/foo": [
-				"node_modules/@harmony102/foo",
-				"./../foo/src/public-api.ts",
+			"@harmony102/common": [
+				"node_modules/@harmony102/common",
+				"./../common/src/public-api.ts",
 			],
 			"@harmony102/team1": [
 				"node_modules/@harmony102/team1",
