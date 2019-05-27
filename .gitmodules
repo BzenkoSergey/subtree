@@ -4,3 +4,6 @@
 [submodule "packages/team2"]
 	path = packages/team2
 	url = https://github.com/BzenkoSergey/subtree-team2.git
+[submodule "packages/common"]
+	path = packages/common
+	url = https://github.com/BzenkoSergey/subtree-common.git
