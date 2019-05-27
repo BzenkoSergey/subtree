@@ -1,0 +1,17 @@
+{
+  "name": "@harmony102/team1",
+  "version": "0.0.56",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "release": "ng build lib && yarn publish dist/lib --non-interactive || true"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "private": false
+}
