@@ -1,0 +1,24 @@
+{
+	"extends": "./../../tsconfig.json",
+	"compilerOptions": {
+		"baseUrl": "./",
+		"outDir": "./dist/out-tsc",
+		"typeRoots": [
+			"node_modules/@types"
+		],
+		"paths": {
+			"@harmony102/foo": [
+				"node_modules/@harmony102/foo",
+				"./../foo/src/public-api.ts",
+			],
+			"@harmony102/team1": [
+				"node_modules/@harmony102/team1",
+				"./../team1/src/public-api.ts"
+			],
+			"@harmony102/team2": [
+				"node_modules/@harmony102/team2",
+				"./../team2/src/public-api.ts"
+			]
+		}
+	}
+}

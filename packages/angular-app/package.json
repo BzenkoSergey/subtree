@@ -1,0 +1,22 @@
+{
+  "name": "@harmony102/angular-app",
+  "version": "0.0.42",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build --aot",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "private": false,
+  "dependencies": {
+	"@harmony102/core-styles": "1.0.56",
+	"@harmony102/foo": "0.0.56",
+    "@harmony102/team1": "0.0.56",
+    "@harmony102/team2": "0.0.57"
+  }
+}

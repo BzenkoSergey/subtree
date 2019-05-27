@@ -1,0 +1,39 @@
+<nav class="navbar navbar-light bg-light">
+	<a
+		class="navbar-brand"
+		routerLink="./">
+		Logo
+	</a>
+</nav>
+
+<div class="container-fluid content">
+	<div class="row h-100">
+		<div class="col-3 px-0">
+			<div class="list-group list-group-flush shadow-sm h-100">
+				<a
+					class="list-group-item list-group-item-action"
+					[routerLink]="['team1']">
+					Team 1
+				</a>
+				<a
+					class="list-group-item list-group-item-action"
+					[routerLink]="['team2']">
+					Team 2
+				</a>
+			</div>
+		</div>
+		<div class="col-9">
+			<div class="p-2 shadow-sm mt-2 border">
+				<div class="core-message p-2">
+					Message!
+				</div>
+				<router-outlet></router-outlet>
+			</div>
+
+			<div class="p-2 shadow-sm mt-2">
+				<lib-foo></lib-foo>
+			</div>
+		</div>
+	</div>
+</div>
+
