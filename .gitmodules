@@ -7,3 +7,6 @@
 [submodule "packages/common"]
 	path = packages/common
 	url = https://github.com/BzenkoSergey/subtree-common.git
+[submodule "packages/styles"]
+	path = packages/styles
+	url = https://github.com/BzenkoSergey/subtree-styles.git
