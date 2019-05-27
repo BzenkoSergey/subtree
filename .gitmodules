@@ -1,3 +1,6 @@
 [submodule "packages/team1"]
 	path = packages/team1
 	url = https://github.com/BzenkoSergey/subtree-team1.git
+[submodule "packages/team2"]
+	path = packages/team2
+	url = https://github.com/BzenkoSergey/subtree-team2.git
