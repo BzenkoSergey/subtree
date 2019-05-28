@@ -14,9 +14,9 @@
   },
   "private": false,
   "dependencies": {
-	"@harmony102/styles": "1.0.56",
-	"@harmony102/common": "0.0.56",
-    "@harmony102/team1": "0.0.56",
-    "@harmony102/team2": "0.0.57"
+	"@harmony102/styles": "*",
+	"@harmony102/common": "*",
+    "@harmony102/team1": "*",
+    "@harmony102/team2": "*"
   }
 }

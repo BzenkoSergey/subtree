@@ -11,14 +11,15 @@
 		"packages/*"
 	],
 	"scripts": {
+		"pull-submodules": "git pull --recurse-submodules",
+		"build": "lerna run --scope @harmony102/angular-app build",
+		"start": "lerna run --scope @harmony102/angular-app start",
 		"cleanup": "lerna clean --yes && rm -rf ./node_modules",
-		"release": "yarn run check-versions && yarn run cleanup && lerna bootstrap && lerna run release",
-		"check-versions": "syncpack list-mismatches --source \"./packages/*/package.json\" --source \"./packages/*/src/package.json\""
+		"release": "yarn run cleanup && lerna bootstrap && lerna run release"
 	},
 	"devDependencies": {
 		"lerna": "3.14.1",
-		"syncpack": "4.5.2",
-		"prettier": "^1.7.4",
+		"prettier": "1.7.4",
 		"tsickle": "0.34.3",
 		"ng-packagr": "4.7.1",
 		"@angular-devkit/build-angular": "0.13.6",
@@ -54,6 +55,11 @@
 		"@angular/router": "7.2.10",
 		"core-js": "2.6.8",
 		"rxjs": "6.4.0",
-		"zone.js": "0.9.0"
+		"zone.js": "0.9.0",
+
+		"@harmony102/common": "0.0.56",
+		"@harmony102/team1": "0.0.56",
+		"@harmony102/team2": "0.0.57",
+		"@harmony102/styles": "1.0.56"
 	}
 }

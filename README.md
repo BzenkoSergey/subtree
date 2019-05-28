@@ -1,2 +1,13 @@
-# harmony
-This repo is the source code for this [medium article](https://medium.com/@zachary.n.feldman/harmony-with-angular-lerna-and-yarn-workspaces-6a7394f08da) named "Harmony with Angular, Lerna, and Yarn Workspaces"
+fetch: https://github.com/BzenkoSergey/subtree.git
+fetch submodule: yarn run pull-submodules
+run: yarn install
+run: lerna bootstrap
+
+# Dev
+	run: yarn run start
+
+# Prod
+	run: yarn run build
+
+# Release
+	run: yarn run release
