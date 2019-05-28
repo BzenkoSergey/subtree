@@ -3,7 +3,6 @@
 	"version": "1.0.0",
 	"description": "this is a demo for angular, lerna, and yarn workspaces working in harmony",
 	"main": "index.js",
-	"repository": "https://github.com/BzenkoSergey/harmony.git",
 	"author": "Zach Feldman",
 	"license": "MIT",
 	"private": true,
@@ -58,7 +57,7 @@
 		"zone.js": "0.9.0",
 
 		"@harmony102/common": "0.0.56",
-		"@harmony102/team1": "0.0.56",
+		"@harmony102/team1": "0.0.57",
 		"@harmony102/team2": "0.0.57",
 		"@harmony102/styles": "1.0.56"
 	}
