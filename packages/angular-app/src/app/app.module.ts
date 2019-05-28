@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { LibModule } from '@harmony102/foo';
+import { LibModule } from '@harmony102/common';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
