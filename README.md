@@ -1,6 +1,6 @@
 fetch: https://github.com/BzenkoSergey/subtree.git
 
-fetch submodule: yarn run pull-submodules
+fetch submodule: yarn run pull-submodules (optional)
 
 run: yarn install
 
